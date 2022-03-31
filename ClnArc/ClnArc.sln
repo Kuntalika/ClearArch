@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClnArc.Infra.Data", "ClnArc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClnArc.UI.Mvc", "ClnArc.UI.Mvc", "{22A48AE6-6CA8-437E-9509-D7FC48FC69BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClnArcMvc", "ClnArcMvc\ClnArcMvc.csproj", "{F40563FF-224F-4901-B67E-D5F20348473F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F40563FF-224F-4901-B67E-D5F20348473F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40563FF-224F-4901-B67E-D5F20348473F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40563FF-224F-4901-B67E-D5F20348473F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40563FF-224F-4901-B67E-D5F20348473F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F40563FF-224F-4901-B67E-D5F20348473F} = {22A48AE6-6CA8-437E-9509-D7FC48FC69BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F164BFBA-86C5-4A1B-ABEE-CB3979B7A55F}
